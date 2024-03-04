@@ -1,7 +1,3 @@
 streamlit
-streamlit-extras
 transformers
-torch
 tensorflow
-accelerate
-sentencepiece
