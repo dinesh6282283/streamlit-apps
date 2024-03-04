@@ -1,7 +1,6 @@
 import streamlit as st
 from transformers import pipeline
-from streamlit_extras.let_it_rain import rain
-st.title("Sentiment Analysis App")
+st.title("Sentiment Analysis ")
 p = pipeline(model = "lxyuan/distilbert-base-multilingual-cased-sentiments-student")
 
 
